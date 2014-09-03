@@ -1,0 +1,28 @@
+---
+title       : Exploring
+subtitle    : an example
+author      : Arturo Chian
+job         : Economist
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : [bootstrap, quiz, shiny, interactive]            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+
+--- #
+
+## Example
+
+I hope this will work
+
+
+--- &interactive 
+
+
+```{r opts.label = 'interactive', results = 'asis'}
+rating <-rnorm(200)
+hist(rating)
+```
+
+
